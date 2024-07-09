@@ -1,0 +1,98 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.center-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+#modal-email {
+    border: none;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 20px;
+}
+#modal-password{
+    border: none;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 20px;
+}
+#imput_show_pass{
+    background-color: #d7d7d78e;
+    margin: 7px;
+    padding: 8px;
+    border-radius: 5px;
+}
+#imput_show_pass:hover{
+    background-color: #bcbcbc9c;
+    cursor: pointer;
+}
+
+#modal-newPassword{
+    border: none;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 20px;
+}
+#modal-confirmPassword{
+    border: none;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 20px;
+}
+#modal-newPassword_2{
+    border: none;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 20px;
+}
+#modal-confirmPassword_2{
+    border: none;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 20px;
+}
+
+#contenedor_login {
+    background-color: #ffffff00; /* Cambia esto al color que desees para la sección */
+    padding: 20px; /* Agrega espacio alrededor del contenido de la sección */
+    box-shadow: 0px 0px 7px rgba(18, 71, 115, 0);
+    border-radius: 15px;
+}
+/* Estilo base para el enlace */
+a.button {
+    font-size: 13px;
+    padding: 10px 20px; /* Ajusta el padding según sea necesario */
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0px 0px 8px rgba(8, 62, 162, 0.067);
+}
+a.button:hover {
+    background-color: #d8d8d852; 
+    
+}
+/*---------------------------------------------------------*/
+#botonn{
+    background-color: rgb(23, 88, 140);
+    color: white;
+}
+#botonn:hover{
+    background-color: rgb(84, 171, 241);
+    color: white;
+}
+
+#btn_google{
+    background-color: rgba(229, 229, 229, 0.499);
+}
+#btn_google:hover{
+    background-color: rgba(37, 161, 239, 0.323);
+}
+.mostrarContra{
+    /* background-color: aqua !important; */
+    padding:8px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(126, 126, 126, 0.158);
+}
+.mostrarContra:hover{
+    background-color: rgba(42, 178, 216, 0.179);
+}
+

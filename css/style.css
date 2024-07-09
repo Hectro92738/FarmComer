@@ -1,0 +1,1312 @@
+/* body{
+    background-color: #000000;
+    color: #ffffff;
+} */
+#botonn {
+    background-color: rgb(18, 71, 115);
+    color: white;
+    border: none;
+}
+
+/* Estilo para el título */
+.animated-emoji {
+    display: inline-block;
+    animation: moveEmoji 1s linear infinite alternate;
+    /* Animación de movimiento */
+}
+
+/* Definición de la animación */
+@keyframes moveEmoji {
+    0% {
+        transform: translateY(0);
+    }
+
+    /* Estado inicial */
+    100% {
+        transform: translateY(-10px);
+    }
+
+}
+.xdfgdse{
+    color: white;
+    background: rgba(9, 34, 228, 0.432);
+}
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 700px) {
+    #pdfViewer {
+        display: none;
+    }
+
+    #ocultar_DicpocitivoMovil {
+        display: none;
+    }
+}
+
+.pdf_css_predial {
+    width: 100%;
+    height: 600px;
+}
+
+.animacion_letra {
+    display: inline-block;
+    animation: zoomAnimation 2s infinite alternate;
+    /* 2 segundos de duración, infinita y alternada */
+}
+
+@keyframes zoomAnimation {
+    0% {
+        transform: scale(1);
+        /* Escala inicial */
+    }
+
+    50% {
+        transform: scale(1.1);
+        /* Escala al 110% a la mitad de la animación */
+    }
+
+    100% {
+        transform: scale(1);
+        /* Vuelve a la escala inicial al final */
+    }
+}
+
+
+/* #modal-password {
+    border: none;
+    border-bottom: 1px solid #3d3d3d9b;
+    padding-bottom: 12px;
+} */
+
+/* .card{
+    background-color: #0D0E10;
+} */
+.main-footer {
+    padding: none;
+    margin: none;
+}
+
+#css-botonn {
+    background-color: rgb(18, 71, 115);
+    color: white;
+    border: none;
+}
+
+/* Para pantallas de computadora (más anchas) */
+@media (min-width: 800px) {
+    #imagen_css_carrusel img {
+        width: 100%;
+        /*Ancho*/
+        height: 28rem;
+        /*Alto*/
+        object-fit: cover;
+    }
+}
+
+/* Para pantallas de tablet o más pequeñas */
+@media (max-width: 800px) {
+    #imagen_css_carrusel img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+.text_neon {
+    text-shadow:
+        0 0 5px rgb(3, 53, 255),
+        0 0 10px rgba(3, 53, 255, 0.851),
+        0 0 20px rgba(3, 53, 255, 0.4),
+        0 0 40px rgba(3, 53, 255, 0.2);
+    font-weight: bold;
+}
+
+
+.color_barra {
+    background-color: rgb(18, 71, 115);
+    color: white;
+}
+
+/* IMAGENES DEL CAROUSEL  */
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+@media (max-width: 1000px) {
+    .carousel-item img {
+        width: 100%;
+        height: 1000px;
+        object-fit: cover;
+    }
+}
+
+/* ------------------  */
+.imputt {
+    width: 200px !important;
+    height: 30px !important;
+}
+
+.imputt_buton {
+    height: 30px;
+}
+
+@media (max-width: 767px) {
+    .imputt {
+        width: 80px !important;
+    }
+}
+
+
+
+/* MENÚN FLOTANTE DEL BUSCADOR  */
+#results {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 100px;
+    color: #000000;
+    overflow-y: auto;
+    /* z-index: 1000; */
+    margin-top: 9rem !important;
+    margin-left: 8rem !important;
+    font-size: 10px !important;
+    text-decoration: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.508);
+}
+
+#results a {
+    font-weight: bold;
+    border: 1px solid rgba(0, 0, 0, 0.154);
+
+}
+
+#results a:hover {
+    background-color: #e3e3e3;
+}
+
+
+/*-------------- COLORES DE LAS ALERTAS -----------*/
+.custom-success {
+    background-color: #73d389;
+    color: #000000;
+    -webkit-text-stroke: .5px rgb(21, 114, 20);
+    /* Para navegadores basados en WebKit (por ejemplo, Chrome, Safari) */
+}
+
+.custom-danger {
+    background-color: #d67781;
+    color: #000000;
+    -webkit-text-stroke: .5px rgb(122, 20, 20);
+    /* Para navegadores basados en WebKit (por ejemplo, Chrome, Safari) */
+}
+
+.custom-info {
+    background-color: #d9e06e;
+    color: #000000;
+    -webkit-text-stroke: .5px rgba(0, 0, 0, 0.24);
+    /* Para navegadores basados en WebKit (por ejemplo, Chrome, Safari) */
+}
+
+/*------------ ICONO DE AYUDA -----------*/
+.help-icon {
+    padding: 4px 4px;
+    /* Ajusta el padding según sea necesario */
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 10px;
+    /* Espacio entre el ícono y el texto */
+    color: #000000;
+    /* Color del ícono, puedes personalizarlo */
+}
+
+.help-message {
+    display: none;
+    font-size: 11px;
+    background-color: #ffffff;
+    border: 1px solid #3c3c3c4e;
+    padding: 13px;
+    position: absolute;
+    z-index: 1000;
+    position: fixed;
+    /* Cambiar a fixed en lugar de absolute *
+    /* Para asegurarte de que esté por encima de otros elementos */
+    max-width: 300px;
+    /* Ancho máximo del mensaje */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.help-icon {
+    color: #000000;
+    /* Color inicial del icono */
+    animation: pulse 1s infinite;
+    /* Aplica una animación llamada 'pulse' de 1 segundo de duración, repetida infinitamente */
+    transition: color 0.3s ease;
+    /* Transición suave de color durante 0.3 segundos */
+}
+
+.help-icon:hover {
+    cursor: pointer;
+    animation: none;
+    /* Detiene la animación cuando el mouse está sobre el icono */
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+#imagenExpandida {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    /* Fondo gris semitransparente */
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+#imagenExpandida img {
+    max-width: 90%;
+    max-height: 90%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    /* Sombra para destacar la imagen */
+    display: block;
+    margin: 0 auto;
+    /* Para centrar la imagen horizontalmente */
+}
+
+
+.infor {
+    font-size: 13px;
+}
+
+/*estilo - avatar*/
+.profile-image {
+    width: 220px;
+    /* Ajusta el ancho según tus necesidades */
+    height: 220px;
+    /* Ajusta la altura según tus necesidades */
+    border-radius: 50%;
+    /* Hace que el borde sea un círculo perfecto */
+    object-fit: cover;
+    /* Mantiene la proporción de la imagen y la ajusta para cubrir completamente el contenedor circular */
+    box-shadow: -8px -5px 10px rgba(28, 28, 28, 0.456);
+}
+
+.custom-checkbox-label {
+    display: flex;
+    /* Para alinear el checkbox y la etiqueta en línea */
+    align-items: center;
+    /* Para centrar verticalmente el checkbox y la etiqueta */
+    font-size: 13px;
+    /* Tamaño de fuente de la etiqueta */
+    padding-top: 10px;
+}
+
+.custom-checkbox {
+    width: 18px;
+    /* Ancho deseado de la casilla del checkbox */
+    height: 18px;
+    /* Altura deseada de la casilla del checkbox */
+    margin-right: 10px;
+    /* Espacio entre el checkbox y la etiqueta */
+    /* Estilos adicionales para personalizar la apariencia del checkbox */
+}
+
+.estatus-inactivo {
+    background-color: #f800195a;
+}
+
+.icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* Espacio entre los íconos */
+}
+
+.icon-container label {
+    flex-basis: calc(33.33% - 100px);
+    /* Ajusta el ancho según la cantidad de columnas deseadas */
+}
+
+.botonn {
+    background-color: rgb(18, 71, 115);
+    color: white;
+    border: none;
+}
+
+/*-----------------------------------------------------*/
+/* Estilo para el contenedor de la animación de carga */
+.loading-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.799);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para el spinner o animación de carga rgb(18, 71, 115) */
+.loading-spinner {
+    border: 8px solid rgb(25, 89, 142);
+    border-top: 8px solid #f3f3f3;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*-----------------------------------------------------*/
+.index {
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    /* Opcional: fija la imagen de fondo */
+    background-position: center center;
+    /* Opcional: centra la imagen */
+    width: 100%;
+    height: 70vh;
+    /* Ajusta la altura según tus preferencias */
+}
+
+/*-------------------------------------------------------*/
+.animacion-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 160px;
+}
+
+.animacion {
+    position: absolute;
+    width: 100px;
+    /* Ancho deseado */
+    height: 60px;
+    left: 100px;
+    max-width: 100%;
+    /* Evita que la imagen se desborde del contenedor */
+    animation: moveLeft 14s linear infinite, fadeInOut 14s ease-in-out infinite;
+    opacity: 0;
+    /* Inicialmente oculto */
+}
+
+@keyframes moveLeft {
+    0% {
+        left: 100px;
+        /* Pocisión inicial */
+    }
+
+    100% {
+        left: calc(100% - 100px);
+        /* Posición final */
+    }
+}
+
+@keyframes fadeInOut {
+
+    0%,
+    100% {
+        opacity: 0;
+        /* Oculto al principio y al final */
+    }
+
+    50% {
+        opacity: 1;
+        /* Visible en la mitad */
+    }
+}
+
+
+#aprobacionesTable {
+    font-size: 11px;
+}
+
+#empleadosTable {
+    font-size: 12px;
+    /* Cambia el tamaño de fuente a tu preferencia */
+}
+
+
+.directa {
+    background-color: rgb(18, 71, 115);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.btn_Empleado {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(20, 80, 130);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: double;
+    outline: invert;
+}
+
+.btn_Empleado:hover {
+    background-color: rgba(26, 83, 130, 0.736);
+}
+
+.btn_Empleado i {
+    font-size: 16px;
+    line-height: 1;
+}
+
+
+.btn_predial {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(20, 80, 130);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: double;
+    outline: invert;
+}
+
+.btn_predial:hover {
+    background-color: rgba(26, 83, 130, 0.736);
+}
+
+.btn_predial i {
+    font-size: 10px;
+    line-height: 1;
+}
+
+.btn_aprobacion {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: none;
+    border: double;
+    outline: invert;
+}
+
+.btn_aprobacion i {
+    font-size: 16px;
+    line-height: 1;
+}
+
+/* Puedes personalizar el estilo del spinner según tus necesidades */
+.loading-animation::after {
+    content: '';
+    display: inline-block;
+    border: 4px solid #ccc;
+    /* Grosor y color del spinner */
+    border-top: 4px solid #3498db;
+    /* Color del extremo superior del spinner */
+    border-radius: 50%;
+    /* Hace que el spinner sea circular */
+    width: 20px;
+    /* Ancho del spinner */
+    height: 20px;
+    /* Altura del spinner */
+    animation: spin 1s infinite linear;
+    /* Animación de rotación */
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.datatables {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* Cambia la familia de la fuente según tus preferencias */
+    font-size: 12px;
+    /* Ajusta el tamaño de la fuente según tus preferencias */
+    font-weight: bold;
+}
+
+.contenedor_css {
+    margin: 20px;
+}
+
+.btn_regresar {
+    background-color: rgb(5, 111, 193);
+    padding: 10px 50px 10px;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn_regresar:hover {
+    background-color: rgb(15, 74, 120);
+}
+
+/* #buscar_menu_empleado {
+    font-size: 12px; 
+    padding: 5px 10px; 
+} */
+thead {
+    background-color: rgba(185, 185, 185, 0.415);
+}
+
+#Input_cmbioColor {
+    border: 1px solid rgba(108, 108, 108, 0.486);
+    font-size: 12px;
+    width: 80%;
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#Input_cmbioColor:placeholder-shown {
+    background-color: rgb(255, 255, 255);
+    /* Color cuando no hay texto */
+}
+
+#Input_cmbioColor:not(:placeholder-shown) {
+    background-color: rgba(185, 185, 185, 0.415);
+    /* Color cuando hay texto */
+}
+
+.imagen-opaca {
+    opacity: 0.2;
+    /* Ajusta la opacidad según tu preferencia */
+}
+
+.ver_pass {
+    background-color: rgba(82, 82, 82, 0.09);
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ver_pass:hover {
+    background-color: rgba(59, 59, 59, 0.186);
+}
+
+.drop-zone {
+    width: 300px;
+    height: 150px;
+    border: 2px dashed #a8a8a8;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.drag-over {
+    background-color: #7e7e7e;
+}
+
+/* ---------------------------------------------- */
+#drop-area {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#file-input {
+    display: none;
+    /* Oculta el input de tipo archivo */
+}
+
+#drop-area {
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    cursor: crosshair;
+}
+
+#drop-area:hover {
+    background-color: rgba(0, 0, 0, 0.066);
+}
+
+#drop-area.is-dragover {
+    background-color: #f0f0f0;
+}
+
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+#drop-area-dental {
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    cursor: crosshair;
+}
+
+#file-input-dental {
+    display: none;
+    /* Oculta el input de tipo archivo */
+}
+
+
+#drop-area-dental:hover {
+    background-color: rgba(0, 0, 0, 0.066);
+}
+
+#drop-area-dental.is-dragover {
+    background-color: #f0f0f0;
+}
+
+.barra {
+    width: 100%;
+    height: 30px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.progreso {
+    width: 0%;
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: llenar 5s linear forwards;
+    /* Cambia el valor de 5s a la duración que desees */
+}
+
+@keyframes llenar {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+#drop-area-predial2 {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#file-input-predial2 {
+    display: none;
+    /* Oculta el input de tipo archivo */
+}
+
+#drop-area-predial2 {
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    cursor: crosshair;
+}
+
+#drop-area-predial2:hover {
+    background-color: rgba(0, 0, 0, 0.066);
+}
+
+#drop-area-predial2.is-dragover {
+    background-color: #f0f0f0;
+}
+
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+#drop-area-predial {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#carga_doc_predial {
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.733), rgb(40, 151, 255));
+    color: #ffffff;
+    border:1px solid;
+    border-color:#00000054;
+}
+
+#carga_doc_predial:hover {
+    background-image: linear-gradient(to right, rgba(0, 106, 255, 0.503), rgb(40, 194, 255));
+}
+
+#carga_doc_dental {
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.733), rgb(40, 151, 255));
+    color: #ffffff;
+    border:1px solid;
+    border-color:#00000054;
+}
+
+#carga_doc_dental:hover {
+    background-image: linear-gradient(to right, rgba(0, 106, 255, 0.503), rgb(40, 194, 255));
+}
+
+#carga_doc_lentes {
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.733), rgb(40, 151, 255));
+    color: #ffffff;
+    border:1px solid;
+    border-color:#00000054;
+}
+
+#carga_doc_lentes:hover {
+    background-image: linear-gradient(to right, rgba(0, 106, 255, 0.503), rgb(40, 194, 255));
+}
+
+/* .....  */
+#btn_prEnvio{
+    background-image: linear-gradient(to right, rgba(3, 7, 255, 0.534), rgb(40, 237, 255));
+    border-radius: 8px;
+    border:1px solid;
+    border-color:#0000008c;
+    color: #000000;
+}
+#btn_prEnvio:hover{
+    background-image: linear-gradient(to right, rgba(16, 3, 255, 0.46), rgb(40, 162, 255));
+}
+/* .....  */
+#btn_verificar_dental{
+    background-image: linear-gradient(to right, rgba(3, 255, 28, 0.609), rgb(137, 255, 40));
+    border-radius: 8px;
+    border:1px solid;;
+    border-color:#0000008c;
+    color: #000000;
+}
+#btn_verificar_dental:hover{
+    background-image: linear-gradient(to right, rgba(3, 255, 28, 0.504), rgba(137, 255, 40, 0.675));
+}
+/* .....  */
+#btn_verificar_lentes{
+    background-image: linear-gradient(to right, rgba(3, 255, 28, 0.609), rgb(137, 255, 40));
+    border-radius: 8px;
+    border:1px solid;;
+    border-color:#0000008c;
+    color: #000000;
+}
+#btn_verificar_lentes:hover{
+    background-image: linear-gradient(to right, rgba(3, 255, 28, 0.504), rgba(137, 255, 40, 0.675));
+}
+/* .....  */
+#btn_verificar_predial{
+    background-image: linear-gradient(to right, rgba(3, 255, 28, 0.609), rgb(137, 255, 40));
+    border-radius: 8px;
+    border:1px solid;;
+    border-color:#0000008c;
+    color: #000000;
+}
+#btn_verificar_predial:hover{
+    background-image: linear-gradient(to right, rgba(3, 255, 28, 0.504), rgba(137, 255, 40, 0.675));
+}
+/* .....  */
+/* Estilos predeterminados para el botón */
+#btn_cansela_dental {
+    position: absolute;
+    top: 5rem;
+    left: 20px;
+    background-image: linear-gradient(to right, rgba(54, 54, 54, 0.663), rgb(0, 0, 0));
+    border-radius: 8px;
+    border:1px solid #0000008c;
+    color: #ffffff;
+}
+#btn_cansela_dental:hover {
+    background-image: linear-gradient(to right, rgba(54, 54, 54, 0.517), rgba(0, 0, 0, 0.793));
+}
+/* .....  */
+#btn_cancelarSubirNuevamente{
+    background-image: linear-gradient(to right, rgb(255, 3, 3), rgba(255, 47, 40, 0.691));
+    border-radius: 50%;
+    border:1px double;
+    border-color:#0000008c;
+    color: #fefefe;
+    font-size: bold;
+}
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 767px) {
+
+    /* Media query para dispositivos con ancho máximo de 767px (típicamente teléfonos móviles) */
+    #btn_cansela_dental {
+        top: 3.5rem;
+        /* Mueve el botón 10px hacia arriba */
+    }
+}
+/* Estilos predeterminados para el botón */
+#btn_cansela_lentes {
+    position: absolute;
+    top: 5rem;
+    left: 20px;
+    background-image: linear-gradient(to right, rgba(54, 54, 54, 0.663), rgb(0, 0, 0));
+    border-radius: 8px;
+    border:1px solid #0000008c;
+    color: #ffffff;
+}
+#btn_cansela_lentes:hover {
+    background-image: linear-gradient(to right, rgba(54, 54, 54, 0.517), rgba(0, 0, 0, 0.793));
+}
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 767px) {
+
+    /* Media query para dispositivos con ancho máximo de 767px (típicamente teléfonos móviles) */
+    #btn_cansela_lentes {
+        top: 3.5rem;
+        /* Mueve el botón 10px hacia arriba */
+    }
+}
+/* Estilos predeterminados para el botón */
+#btn_cansela_predial {
+    position: absolute;
+    top: 5rem;
+    left: 20px;
+    background-image: linear-gradient(to right, rgba(54, 54, 54, 0.663), rgb(0, 0, 0));
+    border-radius: 8px;
+    border:1px solid #0000008c;
+    color: #ffffff;
+}
+#btn_cansela_predial:hover {
+    background-image: linear-gradient(to right, rgba(54, 54, 54, 0.413), rgba(0, 0, 0, 0.663));
+}
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 767px) {
+
+    /* Media query para dispositivos con ancho máximo de 767px (típicamente teléfonos móviles) */
+    #btn_cansela_predial {
+        top: 3.5rem;
+        /* Mueve el botón 10px hacia arriba */
+    }
+}
+
+
+
+
+#file-input-predial {
+    display: none;
+    /* Oculta el input de tipo archivo */
+}
+
+#drop-area-predial {
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    cursor: crosshair;
+}
+
+#drop-area-predial:hover {
+    background-color: rgba(0, 0, 0, 0.066);
+}
+
+#drop-area-predial.is-dragover {
+    background-color: #f0f0f0;
+}
+
+/* ---------------------------------------------- */
+.file-preview {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.file-thumbnail {
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 5px;
+}
+
+#card_doc {
+    width: 100%;
+    height: 10%;
+    font-size: 10px;
+    background-color: rgba(18, 71, 115, 0.292);
+}
+
+
+#modal_doc {
+    background: rgba(255, 255, 255, 0.163);
+    /* Fondo transparente */
+}
+
+#modal_doc_cont::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+#letra {
+    font-size: 13px;
+}
+
+#letra_g {
+    font-size: 15px;
+}
+
+/* ----------------------- */
+/* ANIMACION DE APARICION EN PRESTACIONES */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1.5s ease-out;
+}
+
+/* ----------------------- */
+/* ANIMACION DE ESCALADO DE IMG */
+.animacion_img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.animacion_img:hover {
+    transform: scale(0.9);
+    /* Cambiar a un valor menor para hacer la imagen más pequeña */
+}
+
+/* Estilos para la carta modal */
+.carta-modal {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    font-size: 10px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.637);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: none;
+    /* Inicialmente oculta la carta modal */
+    z-index: 9999;
+    /* Valor alto para asegurarse de que esté encima de todo */
+}
+
+/* Estilos para la carta modal */
+.carta-modal-lentes {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    font-size: 10px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.637);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: none;
+    /* Inicialmente oculta la carta modal */
+    z-index: 9999;
+    /* Valor alto para asegurarse de que esté encima de todo */
+}
+
+/* Estilos para la carta modal */
+.carta-modal-predial {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    font-size: 10px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.637);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: none;
+    /* Inicialmente oculta la carta modal */
+    z-index: 9999;
+    /* Valor alto para asegurarse de que esté encima de todo */
+}
+
+
+
+
+/* ---------------------   */
+.gray-background {
+    background-color: rgba(130, 130, 130, 0.122);
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-text-stroke: .4px rgba(0, 0, 0, 0.214);
+}
+
+.btn_descarga_doc {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(20, 60, 130);
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: double;
+    outline: invert;
+}
+
+.btn_descarga_doc:hover {
+    background-color: rgba(26, 83, 130, 0.736);
+}
+
+.btn_descarga_doc i {
+    font-size: 16px;
+    line-height: 1;
+}
+
+
+
+
+#contenedor_calculadora {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(110, 110, 110, 0.298);
+    z-index: 9999;
+    /* Asigna un valor alto al z-index */
+}
+
+
+#calculator {
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    /* text-align: center; */
+}
+
+#display {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.calculator-button {
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 4px;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+}
+
+.calculator-button:hover {
+    background-color: #e0e0e0;
+}
+
+/* nav bar - de PRESTACION  */
+.accion {
+    background-color: #0434871f;
+    color: rgb(245, 245, 245);
+    border-radius: 8px;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.accion:hover {
+    background-color: #0a2a655a;
+    border-radius: 8px;
+}
+
+.small-btn {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #153b7d17;
+    cursor: pointer;
+}
+
+.small-btn:hover {
+    cursor: pointer;
+    background-color: #153b7d40;
+}
+
+/* Estilos para el botón redondo */
+.boton-redondo {
+    position: fixed;
+    bottom: 60px;
+    right: 3px;
+    background-color: rgba(18, 71, 115, 0.675);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(1, 30, 255, 0.699);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton-redondo:hover {
+    background-color: rgba(18, 71, 115, 0.943);
+}
+
+/* Responsividad: Disminuir tamaño en tablet y teléfono */
+@media (max-width: 991.98px) {
+    .boton-redondo {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+        /* Ajusta el tamaño del icono para mantener proporciones */
+    }
+}
+
+@media (max-width: 767.98px) {
+    .boton-redondo {
+        width: 20px;
+        height: 20px;
+        font-size: 13px;
+        /* Ajusta el tamaño del icono para mantener proporciones */
+    }
+}
+
+.btn_Eliminar_Doc_Area {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.813);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: solid 1px rgba(0, 0, 0, 0.437);
+    outline: invert;
+}
+
+.btn_Eliminar_Doc_Area:hover {
+    background-color: rgba(192, 48, 48, 0.535);
+}
+
+.btn_Eliminar_Doc_Area i {
+    font-size: 16px;
+    line-height: 1;
+}
+
+
+
+.btn_dental_verDOC {
+    width: 35px;
+    height: 35px;
+    border-radius: 20%;
+    background-color: rgba(0, 153, 255, 0.768);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: solid 1px rgba(3, 98, 153, 0.556);
+    outline: invert;
+}
+
+.btn_dental_verDOC:hover {
+    background-color: rgba(13, 131, 199, 0.457);
+}
+
+.btn_dental_verDOC i {
+    font-size: 16px;
+    line-height: 1;
+}
+
+
+/* Agrega una animación de desvanecimiento */
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+/* Aplica la animación a la clase 'fadeOut' */
+.fadeOut {
+    /* animation: fadeOut 1s ease-in-out forwards; */
+    color: #4caf50;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+
