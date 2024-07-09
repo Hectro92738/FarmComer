@@ -15,9 +15,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/inicio sesion', function () {
+Route::get('/inicio_sesion', function () {
     return view('inicio');
 });
 Route::get('/inicio', function () {
     return view('index');
+});
+Route::get('/datos_Personales', function () {
+    return view('inicio');
 });
