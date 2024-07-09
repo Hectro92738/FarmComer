@@ -9,7 +9,7 @@
 @section('content') {{-- Dentro del body hemos llamado "content" la sección donde va a variar el contenido del body --}}
     <main class="container text-center mt-4">
         <h1>
-            Inicio sesión 😰
+            index 😠
         </h1>
     </main>
 @endsection {{-- Fin del contenido del body  --}}
