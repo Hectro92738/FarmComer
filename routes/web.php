@@ -18,3 +18,6 @@ Route::get('/', function () {
 Route::get('/', function () {
     return view('inicio_secion');
 });
+Route::get('/', function () {
+    return view('logout');
+});
